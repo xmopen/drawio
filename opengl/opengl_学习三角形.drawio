@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T11:34:10.731Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="21.1.5" etag="DxcfDNThb5tcPrh7PGLe" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T15:19:16.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="1CHWKfrH0rb985LS-l9m" version="21.1.5" type="github">
   <diagram name="第 1 页" id="D8luUudxrfTUyzXlO7-u">
-    <mxGraphModel>
+    <mxGraphModel dx="2476" dy="1158" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FN6dP3F0kQXBMWooalFm-2" value="着色器：GPU核心运行的代码，用于处理自己的图形" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="152" y="281" width="333" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN6dP3F0kQXBMWooalFm-3" target="FN6dP3F0kQXBMWooalFm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-3" value="顶点数据" style="text;html=1;strokeColor=none;fillColor=#D5E8D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="519" width="79" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN6dP3F0kQXBMWooalFm-4" target="FN6dP3F0kQXBMWooalFm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-4" value="顶点着色器:&amp;nbsp; 3D坐标转换为2D坐标" style="text;html=1;strokeColor=none;fillColor=#D5E8D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="129" y="519" width="178" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN6dP3F0kQXBMWooalFm-6" target="FN6dP3F0kQXBMWooalFm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-6" value="图元装配：将顶点着色器的输出作为输入，并且通过给定的图元将其装配成指定的图元" style="text;html=1;strokeColor=none;fillColor=#D5E8D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="387" y="519" width="178" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN6dP3F0kQXBMWooalFm-8" target="FN6dP3F0kQXBMWooalFm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-8" value="图元着色器: 生成新的节点" style="text;html=1;strokeColor=none;fillColor=#D5E8D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="519" width="178" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN6dP3F0kQXBMWooalFm-10" target="FN6dP3F0kQXBMWooalFm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-10" value="光栅化阶段：把上一步的图元映射成屏幕上的像素" style="text;html=1;strokeColor=none;fillColor=#D5E8D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="644" width="178" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN6dP3F0kQXBMWooalFm-12" target="FN6dP3F0kQXBMWooalFm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-12" value="片段着色器：计算最终图形的颜色" style="text;html=1;strokeColor=none;fillColor=#D5E8D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="387" y="644" width="178" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-14" value="AB测试" style="text;html=1;strokeColor=none;fillColor=#D5E8D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="187" y="644" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="FN6dP3F0kQXBMWooalFm-16" value="数组：通过指定位移以及大小的方式确定顶点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-56.5" y="482" width="132" height="29" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
