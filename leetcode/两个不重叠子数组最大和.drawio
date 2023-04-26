@@ -1,9 +1,141 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T13:28:53.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="21.1.7" etag="uq_nbqe-gPvDmHuGSZ06" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T14:01:52.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="R1y1xK6ShpyAEcVKJuAl" version="21.1.7" type="github">
   <diagram name="第 1 页" id="GOfipiYsZZTia1atMXMv">
-    <mxGraphModel>
+    <mxGraphModel dx="2876" dy="1158" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Iov-LMZhseFEne9ULxNi-1" value="5" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-375" y="244" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-2" value="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="244" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-3" value="2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="244" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-4" value="-1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-225" y="244" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-5" value="2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="244" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-6" value="4" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="244" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-7" value="原始数组 &lt;br&gt;firstLen: 1&lt;br&gt;sencondLen:2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-329" y="128" width="207" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-8" value="计算前缀和: 第i个元素就是前i个元素的和" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-418" y="362" width="221.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-9" value="0" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="-418" y="413" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-10" value="5" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="-368" y="413" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-11" value="6" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="-318" y="413" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-12" value="8" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="-268" y="413" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-13" value="7" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="-218" y="413" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-14" value="9" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="-168" y="413" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-15" value="11" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="-118" y="413" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-16" value="第一种情况：假设firstLen长度的数组在sencondLen长度的数组的左侧, 那么长度不边，只需要不断的移动窗口的同时，记录下左侧窗口的最大值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-702" y="614" width="380" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-18" value="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="-351" y="667" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-19" value="2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="-301" y="667" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-20" value="-1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-251" y="667" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-21" value="2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-201" y="667" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-22" value="4" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-151" y="667" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-23" value="红色：firstLen子数组&lt;br&gt;绿色：sencondLen子数组&lt;br&gt;黄色：遍历过的数组元素" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="667" width="169" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-17" value="5" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-401" y="667" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-24" value="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-351" y="803" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-25" value="2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="-301" y="803" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-26" value="-1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="-251" y="803" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-27" value="2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-201" y="803" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-28" value="4" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-151" y="803" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-29" value="5" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="-401" y="803" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-252" y="725" as="sourcePoint" />
+            <mxPoint x="-252" y="787" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-35" value="&lt;h1&gt;第一次计算&lt;br style=&quot;border-color: var(--border-color); font-size: 12px; font-weight: 400; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; text-align: center;&quot;&gt;firstLen在sencondLen左侧&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;leftMax = 0&amp;nbsp; &amp;nbsp;循环变量i为 firstlen，直接从下标firstlen开始(也就是firstlen长度后的下一个数组元素开始计算为sencondLen长度的数组)&lt;/p&gt;&lt;p&gt;第一次见计算：&lt;/p&gt;&lt;p&gt;LeftMax = max(LeftMax,s[i]-s[i-first]) = 5&lt;/p&gt;&lt;p&gt;RightMax = s[i+sencondLen] - s[i] = 3&lt;/p&gt;&lt;p&gt;maxRes = max(maxRes,LeftMax+RightMax) = 8&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-96" y="493" width="390" height="223" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-36" value="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="966" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-37" value="2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="966" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-38" value="-1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="966" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-39" value="2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="966" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-40" value="4" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="966" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-41" value="5" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="966" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="893" as="sourcePoint" />
+            <mxPoint x="-250" y="955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-43" value="&lt;h1&gt;第二次计算&lt;br&gt;&lt;/h1&gt;&lt;p&gt;LeftMax = max(LeftMax,s[i]-s[i-first]) = 1&lt;/p&gt;&lt;p&gt;RightMax = s[i+sencondLen] - s[i] = 1(7-6)&lt;/p&gt;&lt;p&gt;maxRes = max(maxRes,LeftMax+RightMax) = 8&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-99" y="716" width="362" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-44" value="....." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="862" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-51" value="&lt;h1&gt;最后一次计算：i = 4&lt;/h1&gt;&lt;p&gt;LeftMax = max(LeftMax,s[i]-s[i-first]) = 5&lt;/p&gt;&lt;p&gt;RightMax = s[i+sencondLen] - s[i] =6&lt;/p&gt;&lt;p&gt;maxRes = max(maxRes,LeftMax+RightMax) = 11&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-101" y="894" width="362" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="Iov-LMZhseFEne9ULxNi-52" value="同理推算出当sencondLen在firstlLen左侧时，取出一个最大值即可" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-539" y="1074" width="226" height="55" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
