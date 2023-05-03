@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T11:23:05.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="21.2.7" etag="kzdll7FBdOiIuRBmjXhr" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-03T11:35:14.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ejNEl6gZwO7d9SVQziTl" version="21.2.7" type="github">
   <diagram name="第 1 页" id="uj1GG4OF9qLcMZlPsBTB">
-    <mxGraphModel>
+    <mxGraphModel dx="2076" dy="1158" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-1" value="公司总负责人通知所有直属leader一个消息所需要的时间：index是第index个员工，manager[index]表示第index个员工的直属leader&lt;br&gt;&lt;br&gt;举例：manager[2,2,3,-1,2,2] headID = 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="234" y="214" width="393" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-2" value="&amp;nbsp;通过二维数组来构建图：构建方便、好遍历&lt;br&gt;第0、1、3、4、5个员工的leader都属于第2个员工" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="223" y="358" width="362" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-3" value="manager[0]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="129" y="514" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-5" value="manager[2]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="562" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-6" value="manager[1]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="514" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-7" value="manager[2]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="562" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-8" value="manager[2]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="373.5" y="514" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-9" value="manager[4]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.5" y="562" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-10" value="manager[3]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="514" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-11" value="-1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="562" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-12" value="manager[4]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="606" y="514" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-13" value="manager[2]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601" y="562" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-14" value="manager[5]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="737" y="514" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-15" value="manager[2]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="732" y="562" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-16" value="manager[2]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="34" y="741" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-18" value="0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="738" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-19" value="2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="738" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-20" value="3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="738" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-21" value="4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="738" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-22" value="5" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="738" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="s7GGFK-qkk6eAGWRnD0H-23" value="manager[2] ：有下面几个员工(第2号员工有下面几员工)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="141" y="697" width="326.5" height="36" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
