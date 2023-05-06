@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T07:23:35.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="aRBMR4qIoIKKfuhnwQsR" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T08:11:01.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4_o0TIOjaraCZV0ij_it" version="21.2.9" type="github">
   <diagram name="第 1 页" id="0kgHy5BvW1zpJ1109Up3">
     <mxGraphModel dx="2476" dy="1158" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MheRmkkg36lTSOlBN_a8-38" value="为什么会有code和token呢？ HTTP传输不能将TOKEN放在URL上，如果第一步CODE直接返回TOKEN，然后重定向到应用后台，那么这个时候token就已经暴露在URL中了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1024" y="412" width="319" height="87" as="geometry" />
+          <mxGeometry x="1175" y="259" width="319" height="87" as="geometry" />
         </mxCell>
         <mxCell id="MheRmkkg36lTSOlBN_a8-39" value="&lt;h1&gt;&amp;nbsp;Auth Server&lt;/h1&gt;&lt;p&gt;AuthServer应该具备的能力：&lt;/p&gt;&lt;p&gt;1、提供时间较短的授权码&lt;/p&gt;&lt;p&gt;2、根据授权码获取返回ACCESS_TOKEN&lt;/p&gt;&lt;p&gt;3、OpenAPI&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="712" y="219" width="201" height="176" as="geometry" />
@@ -102,8 +102,11 @@
         <mxCell id="MheRmkkg36lTSOlBN_a8-41" value="&lt;h1&gt;第三方应用&lt;/h1&gt;&lt;p&gt;其他应用想要用户在用户不在当前网站进行输入账号和密码前提下获取到用户在QQ哪里的账号相关的信息，所以需要通过授权的方式来进行获取.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="712" y="564" width="191" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="YwmtEPSgpUFrDNPQwr-P-2" value="&lt;h1&gt;用户测流程：&lt;/h1&gt;&lt;p&gt;1：用户首先要登录要被授权的应用&lt;/p&gt;&lt;p&gt;2：用户主动操作进行授权（用户要有一个主动点击的动作来进行授权）&lt;/p&gt;&lt;p&gt;3：用户主动授权后（用户在User Agent进行主动授权），User Agent将会进入Oauth2流程中，也就是图中绿线流程, 当绿线流程结束后，表示用户已经获取授权或者授权失败&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YwmtEPSgpUFrDNPQwr-P-2" value="&lt;h1&gt;用户测流程：&lt;/h1&gt;&lt;p&gt;1：用户首先要登录要被授权的应用&lt;/p&gt;&lt;p&gt;2：用户主动操作进行授权（用户要有一个主动点击的动作来进行授权）&lt;/p&gt;&lt;p&gt;3：用户主动授权后（用户在User Agent进行主动授权），User Agent将会进入Oauth2流程中，也就是图中绿线流程, 当绿线流程结束后，表示用户已经获取授权或者授权失败&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="27" y="526.5" width="234" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ehcovOj0v9Nk5YZby6vU-1" value="&lt;pre style=&quot;box-sizing: border-box; font-family: var(--bs-font-monospace); font-size: 16px; margin-top: -1.25em; margin-bottom: 0px; overflow: auto; padding: 0px; width: 80ch; color: rgb(33, 37, 41); text-align: start;&quot; class=&quot;newpage&quot;&gt;第六步：   The authorization server MUST include the HTTP &quot;Cache-Control&quot;&lt;br&gt;   response header field [&lt;a style=&quot;box-sizing: border-box;&quot; data-bs-original-title=&quot;&amp;quot;Hypertext Transfer Protocol -- HTTP/1.1&amp;quot;&quot; href=&quot;https://datatracker.ietf.org/doc/html/rfc2616&quot;&gt;RFC2616&lt;/a&gt;] with a value of &quot;no-store&quot; in any&lt;br&gt;   response containing tokens, credentials, or other sensitive&lt;br&gt;   information, as well as the &quot;Pragma&quot; response header field [&lt;a style=&quot;box-sizing: border-box;&quot; data-bs-original-title=&quot;&amp;quot;Hypertext Transfer Protocol -- HTTP/1.1&amp;quot;&quot; href=&quot;https://datatracker.ietf.org/doc/html/rfc2616&quot;&gt;RFC2616&lt;/a&gt;]&lt;br&gt;   with a value of &quot;no-cache&quot;.&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="380" width="875" height="139" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
