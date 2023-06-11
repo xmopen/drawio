@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T06:38:49.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="SwUmb-qY4l-y5Duexd6L" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-11T06:53:49.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="OEmPsGrcA_H5DtSe_84t" version="21.3.8" type="github">
   <diagram name="第 1 页" id="kVD-Gdx83QJC5muuzjAY">
     <mxGraphModel dx="1242" dy="733" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-92" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="252" y="1984" width="415.5" height="215" as="geometry" />
+        </mxCell>
         <mxCell id="DkKr_4j6wxJe2CzfXlm4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FFB366;" vertex="1" parent="1">
           <mxGeometry x="169" y="236" width="430" height="307" as="geometry" />
         </mxCell>
@@ -248,6 +251,51 @@
         </mxCell>
         <mxCell id="DkKr_4j6wxJe2CzfXlm4-84" value="网卡驱动：dev_hard_start_xmit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="252" y="1473" width="415" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.201;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkKr_4j6wxJe2CzfXlm4-87" target="DkKr_4j6wxJe2CzfXlm4-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-87" value="内核态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="297" y="1797" width="80" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.801;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkKr_4j6wxJe2CzfXlm4-88" target="DkKr_4j6wxJe2CzfXlm4-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-88" value="软中断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="546" y="1797" width="80" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkKr_4j6wxJe2CzfXlm4-89" target="DkKr_4j6wxJe2CzfXlm4-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-89" value="网卡驱动：dev_hard_start_xmit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="253.5" y="1889" width="415" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-93" value="igb_xmit_frame" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="270.5" y="2002" width="108" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-95" value="1、调用网卡驱动函数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="478" y="1946" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-96" value="RB" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="2055" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkKr_4j6wxJe2CzfXlm4-97" target="DkKr_4j6wxJe2CzfXlm4-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-97" value="RB" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="326" y="2132" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-99" value="网卡能DMA的内存区域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="373" y="2169" width="129" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-100" value="内核" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="348" y="2038" width="43" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkKr_4j6wxJe2CzfXlm4-101" target="DkKr_4j6wxJe2CzfXlm4-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-101" value="skb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="482" y="2101" width="29" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
