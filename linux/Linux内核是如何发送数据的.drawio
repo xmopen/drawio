@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T06:53:49.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="OEmPsGrcA_H5DtSe_84t" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-11T07:19:00.336Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="uhKIEnry8V3sNovEi90t" version="21.3.8" type="github">
   <diagram name="第 1 页" id="kVD-Gdx83QJC5muuzjAY">
     <mxGraphModel dx="1242" dy="733" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -296,6 +296,69 @@
         </mxCell>
         <mxCell id="DkKr_4j6wxJe2CzfXlm4-101" value="skb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="482" y="2101" width="29" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-104" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="242.75" y="2383" width="415.5" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-105" value="网卡驱动程序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="582" y="2351" width="77" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkKr_4j6wxJe2CzfXlm4-106" target="DkKr_4j6wxJe2CzfXlm4-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-106" value="硬中断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="2297.5" width="82" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkKr_4j6wxJe2CzfXlm4-107" target="DkKr_4j6wxJe2CzfXlm4-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-107" value="软中断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="265.5" y="2367.5" width="82" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-109" value="触发软中断：NET_RX_SOFTIRQ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="296" y="2333" width="210" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkKr_4j6wxJe2CzfXlm4-110" target="DkKr_4j6wxJe2CzfXlm4-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-110" value="_poll" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="246.5" y="2435" width="122" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-113" value="_clean_tx_irq" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="2504" width="122" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-115" value="1、释放SKB内存空间&lt;br&gt;2、清理RingBuffer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="302" y="2469" width="135" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkKr_4j6wxJe2CzfXlm4-116" target="DkKr_4j6wxJe2CzfXlm4-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-116" value="RB" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="388" y="2501.5" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-117" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="493" y="2461" width="149" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-119" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516" y="2479.5" width="21" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-120" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601.5" y="2479.5" width="21" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-121" value="skb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="553" y="2512.5" width="29" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-122" value="内核" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="496" y="2452" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-123" value="网卡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="589.5" y="2458" width="45" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkKr_4j6wxJe2CzfXlm4-125" target="DkKr_4j6wxJe2CzfXlm4-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkKr_4j6wxJe2CzfXlm4-125" value="要清理的SKB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="524.5" y="2411" width="86" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
